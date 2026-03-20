@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color:#f2f2f2;
+        }
+
+        .form-box{
+            width:350px;
+            margin:50px auto;
+            padding:20px;
+            background:white;
+            border-radius:10px;
+            
+        }
+
+        h2{
+            text-align:center;
+        }
+
+        input, select, textarea{
+            width:100%;
+            padding:8px;
+            margin:8px 0;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:none;
+            color:black;
+            border:none;
+            border-radius:3px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background:rgb(236, 236, 238);
+        }
+
+        .gender{
+            width:auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h2>Registration Form</h2>
+
+<form>
+    <br><label for="Enter Name">Enter name:</label><br>
+<input type="text" id="Enter Name">
+<br><label for="user Email id">Enter Email id:</label><br>
+<input type="email" id="user Email id">
+<br><label for="Enter Password">Enter password:</label><br>
+<input type="password" id="Enter Password">
+<br><label for="Enter Phone Number">Enter Phone Number:</label><br>
+
+<input type="text" id="Enter Phone Number">
+
+<br><label for="Enter DOB">Enter DOB:</label><br>
+<input type="text" id="Enter DOB">
+<label>Gender</label><br>
+<input type="radio" name="gender" class="gender"> Male
+<input type="radio" name="gender" class="gender"> Female
+ 
+<br><br>
+
+<label>Select Course</label>
+<select>
+<option>B.Tech</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>MCA</option>
+</select>
+
+ 
+
+<label>
+<input type="checkbox"> I agree to terms and conditions
+</label>
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
